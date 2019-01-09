@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
+  "node_deb": {
+    "entrypoints": {
+      "daemon": "app.js"
+    }
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
